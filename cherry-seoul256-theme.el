@@ -62,9 +62,6 @@
 
 (require 'cl-lib)
 
-(when (version< emacs-version "24.3")
-  (error "Requires Emacs 24.3 or later"))
-
 (defgroup cherry-seoul256 nil
   "cherry-seoul256 theme"
   :group 'faces)
